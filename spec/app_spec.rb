@@ -9,5 +9,9 @@ describe App do
     it 'returns 6 when given 3' do
       expect(App.product_sum(3)).to eq(6)
     end
+
+    it 'returns 8 when given 5' do
+      expect(App.product_sum(5)).to eq(8)
+    end
   end
 end
